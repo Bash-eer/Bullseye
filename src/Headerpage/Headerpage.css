@@ -1,0 +1,326 @@
+/*************alter the mobile menu dropdown *******************/
+
+.show ul {
+  background: #86c232;
+}
+
+/************* new one ****************************************/
+
+/**************** for a sticky header while scroll ***************/
+.navbar-scrolled {
+  background-color: #86c232;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+/********************** media query for the mobile menu ********************************/
+
+#header {
+  transition: all 0.5s;
+  z-index: 1000;
+  padding-top: 35px;
+}
+
+/**********************head logo ******************************/
+#logo_head {
+  margin-left: 45px;
+  margin-top: -15px;
+}
+
+/***************************nav links ********************************/
+.navbar-nav {
+}
+
+/*********************** Home ******************************************/
+
+.home_div {
+  color: #767a7c;
+  font-family: Oswald, sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  text-transform: uppercase;
+  margin-right: 48px;
+  margin-top: -6px;
+  margin-left: -3px;
+}
+
+/**************************pages ******************************************/
+.pages_div {
+  color: #fff;
+  font-family: Oswald, sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  margin-left: 65px;
+  text-transform: uppercase;
+}
+
+/******************************shooting packages **************************/
+.shooting_div {
+  color: #fff;
+  margin-right: 0px;
+  margin-left: 4px;
+  font-family: Oswald, sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+
+/************************************blog *******************************/
+
+.blog_div {
+  color: #fff;
+  font-family: Oswald, sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+
+/***********************************contact us **********************************/
+.contact_div {
+  color: #fff;
+  font-family: Oswald, sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  text-transform: uppercase;
+  margin-left: 13px;
+}
+
+/************************************nav-link **************************************************/
+.nav-link {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: Oswald, sans-serif;
+  font-size: 21px !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+/*****************************************links *******************************************/
+#myNavBar {
+  padding-right: 0px;
+  margin-top: 10px;
+}
+/************************************** arrow vector inside tag *******************************
+.bi-chevron-down::before {
+  content: "\f282";
+}
+.bi::before,
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  content: url("../assets/images/header_vector.svg");
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -0.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*******/
+#home_id {
+  margin-left: -3px;
+}
+#navbarDropdown_page {
+  padding-left: 75px;
+}
+#shoot_id {
+  margin-left: 50px;
+}
+#navbarDropdown_blog {
+  padding-left: 112px;
+}
+#contact_id {
+  margin-left: 63px;
+}
+
+header .pixel_heading::before {
+  content: none;
+}
+@media (max-width: 768px) {
+  .pixel_view {
+    margin-right: 0px;
+  }
+  .container > .navbar-collapse {
+    margin-left: 5px;
+  }
+}
+
+/***************** alterations untill 1599px **********************/
+@media (min-width: 1200px) and (max-width: 1599px) {
+  #header .container {
+    gap: 0px;
+  }
+  .navbar-expand-lg .navbar-nav {
+    gap: 25px;
+  }
+}
+@media (max-width: 1400px) {
+  #header .container {
+    gap: 0px;
+  }
+  #myNavBar {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  #navbarDropdown_page {
+    padding-left: 0px;
+  }
+  #shoot_id {
+    text-wrap: nowrap;
+    padding-left: 0px;
+    text-align: left;
+    margin-left: 0px;
+  }
+  #navbarDropdown_blog {
+    padding-left: 0px;
+  }
+  #contact_id {
+    text-wrap: nowrap;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  #header .container {
+    gap: 0px;
+  }
+  .show ul {
+    background: transparent;
+  }
+  #home_id {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1680px) {
+  #logo_head {
+    margin-left: 7px;
+    margin-top: -21px;
+    margin-right: 15px;
+  }
+  #myNavBar {
+    padding-right: 0px;
+    margin-top: -12px;
+  }
+  #shoot_id {
+    text-wrap: nowrap;
+    margin-left: 58px;
+  }
+  #contact_id {
+    text-wrap: nowrap;
+  }
+  #header .container {
+    margin-top: -9px;
+  }
+  #header {
+  }
+  #navbarDropdown_blog {
+    padding-left: 116px;
+  }
+}
+@media (min-width: 1400px) {
+  #header .container {
+    gap: 333px;
+    margin-top: -9px;
+  }
+}
+
+/**************** error of toggler bar *******************************/
+@media (min-width: 768px) and (max-width: 991px) {
+  .show {
+    display: block !important;
+  }
+  .collapse:not(.show) {
+    display: none;
+  }
+  .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+    font-size: 20px;
+  }
+  .navbar-collapse.collapse:not(.show) {
+    display: none !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+}
+
+/********************** to bring a navbar **************************/
+@media (min-width: 992px) and (max-width: 1200px) {
+  .navbar-collapse.collapse:not(.show) {
+    display: flex;
+    gap: 12px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav #header_navbar-nav {
+    flex-direction: row;
+    gap: 12px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .navbar-expand-lg .navbar-nav {
+    gap: 25px;
+  }
+}
+button:focus:not(:focus-visible) {
+  width: 75px;
+  height: 50px;
+  text-align: center;
+  margin-left: -100px;
+  font-size: 25px;
+  border: none;
+}
+
+.navbar-toggler {
+  width: 50px;
+  height: 50px;
+  border: 2px solid gray;
+  border: none;
+  font-size: 25px;
+}
+.navbar-dark .navbar-toggler {
+  font-size: 25px;
+  border: none;
+}
+
+@media (max-width: 500px) {
+  button:focus:not(:focus-visible) {
+    margin-left: -44px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+  }
+}
+.link_head {
+  text-decoration: none;
+  color: #ffffff8c;
+}
+
+/************** edit for footer logo *********************/
+@media (min-width: 768px) and (max-width: 900px) {
+  #foot_logo {
+    margin-bottom: 35px;
+    padding-left: 296px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #logo_head {
+    margin-left: 0px;
+  }
+}

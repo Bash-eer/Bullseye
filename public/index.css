@@ -1,0 +1,40 @@
+body {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "oswald";
+  font-size: 21px;
+  font-style: bold;
+}
+p {
+  font-family: "Raleway";
+  font-size: 19.2px;
+}
+button {
+  width: 210px;
+  height: 47.97px;
+  color: #ffffff;
+  background-color: #86c232;
+}
+
+/**********************************link inside the list ****************************************/
+li a {
+  list-style: none;
+  text-decoration: none !important;
+}

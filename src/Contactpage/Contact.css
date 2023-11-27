@@ -1,0 +1,122 @@
+.contactpage {
+  margin-bottom: 0px;
+}
+#faq {
+  margin-bottom: 100px;
+}
+.cont_section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#freq {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+}
+.contactpage .pixel_heading::before {
+  content: none;
+}
+#freq::after {
+  content: url("../assets/images/section8_asset1.svg");
+  margin-top: -25px;
+}
+#contact_1stpara {
+  text-align: center;
+  padding-right: 86px;
+}
+
+.faq .faq-list {
+  padding: 0 100px;
+}
+.faq .faq-list ul {
+  padding: 0;
+  list-style: none;
+}
+.faq .faq-list li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+}
+.faq .faq-list .icon-help {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  left: 20px;
+  color: #47b2e4;
+}
+.bx-help-circle:before {
+  content: url("../assets/images/section_13_Vector.svg");
+  position: absolute;
+  top: -5px;
+}
+
+element.style {
+}
+.faq .faq-list a {
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 0 30px;
+  outline: none;
+  cursor: pointer;
+}
+.faq .faq-list .icon-show,
+.faq .faq-list .icon-close {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.bx-chevron-up:before {
+  content: "\ea57";
+}
+.faq .faq-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+
+#list_1,
+#list_2,
+#list_3,
+#list_4,
+#list_5 {
+  background-color: transparent;
+}
+
+.cont_content {
+  padding-top: 200px;
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+  #range {
+    display: flex;
+    justify-content: left;
+  }
+  #foot_c4l {
+    display: flex;
+    text-align: left;
+    padding-right: 32px;
+  }
+  .footer-contact {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  #foot_logo {
+    padding-left: 25px;
+  }
+}
+@media (max-width: 1000px) {
+  #freq {
+    text-align: center;
+  }
+  #contact_1stpara {
+    padding: 0px;
+  }
+}

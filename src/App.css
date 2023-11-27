@@ -2,37 +2,130 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
+  color: #fff;
+}
+/* H5 */
+.hfive {
+  font-family: Oswald, sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+} /* 27.3px */
+li a {
+  list-style: none;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/*********h1 *************/
+/* H1 */
+.hone {
+  font-family: Oswald, sans-serif;
+  font-size: 116px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 109.2%;
+} /* 126.672px */
+
+/* H3 **************************/
+.hthree {
+  font-family: Oswald, sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 119.2%;
+}
+/* 71.52px */
+
+/* H4 *********************/
+.hfour {
+  font-family: Oswald, sans-serif;
+  font-size: 28.8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 118.2%;
+} /* 34.042px */
+
+/*************** using span for a body text *********************/
+.para {
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: #767a7c;
+}
+
+/********************* 5th october new one media queries *************************************/
+
+@media (min-width: 1600px) {
+  body .container,
+  body .container-lg,
+  body .container-md,
+  body .container-sm,
+  body .container-xl,
+  body .container-xxl {
+    max-width: 1410px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+#navbarNav {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media (min-width: 1600px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1410px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 1400px) and (max-width: 1580px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1320px;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1140px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+@media (min-width: 351px) and (max-width: 400px) {
+  .right_img_border {
+    left: 183px;
+  }
+}
+@media (max-width: 500px) {
+  .pixel_heading {
+  }
+  #price_btn {
+    margin-left: 118px;
+  }
+
+  /******* heading *********/
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .right_img_border {
+    left: 224px;
   }
 }

@@ -1,0 +1,321 @@
+.gundetails {
+  background-color: #222629;
+  padding-top: 114px;
+  padding-bottom: 108.36px;
+}
+
+.gundetails .container {
+  padding-left: 15.53px;
+}
+/*********left column h5 and para ***********/
+
+.section6_rectangle1 .section6_biggun {
+  text-align: left;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+}
+
+.column1_content {
+  position: absolute;
+  top: 223px;
+  left: 0px;
+}
+.group11_heading {
+  display: flex;
+  gap: 19.04px;
+  width: 100%;
+}
+.group12_heading {
+  display: flex;
+  text-align: left;
+  gap: 19.04px;
+  width: 100%;
+}
+.group11 h5 {
+  width: 100%;
+  font-family: Oswald;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  text-transform: uppercase;
+  text-align: left;
+}
+.group11 p {
+  width: 310.646px;
+  color: #767a7c;
+  text-align: left;
+
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.group12 h5 {
+  width: 100%;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+.group12 p {
+  text-align: left;
+  width: 310.646px;
+  color: #767a7c;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+/************* column2 ***********************************/
+.section6_col2 {
+  display: flex;
+  flex-direction: column;
+}
+
+/************ section6_col2_img asset **************/
+
+.section6_col2_h3 {
+  padding-left: 26px;
+}
+.gundetails .column2_heading h3 {
+  width: 100%;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 119.2%;
+  text-align: left;
+  text-transform: uppercase;
+}
+#gun_p1 {
+  padding-right: 179px;
+  margin-bottom: 82px;
+}
+#gun_p {
+  margin-top: 37px;
+  padding-right: 179px;
+}
+
+#gd_h5 {
+  color: #fff;
+  margin-top: -156px;
+  font-family: Oswald;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+#gd2_h5 {
+  color: #fff;
+  margin-top: 17px;
+  /* H5 */
+  font-family: Oswald;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  padding-left: 31.6px;
+}
+
+/********************group11_h5 *************************/
+
+.gundetails .skills .content p:last-child {
+  padding-top: 14px;
+}
+#gd_h5::before {
+  content: url("../assets/images/Group_icon.svg");
+  padding-top: 0px;
+  margin-right: -9px;
+  margin-left: -11px;
+}
+#gd2_h5::before {
+  content: url("../assets/images/Group_icon.svg");
+  padding-top: 0px;
+  margin-right: -9px;
+  margin-left: -5px;
+}
+
+#gun_para1 {
+  text-align: left;
+  padding-right: 270px;
+  padding-left: 44px;
+}
+#gun_para2 {
+  text-align: left;
+  padding-left: 90px;
+  padding-right: 264px;
+}
+/***********************group11_para ************************/
+
+/***********************group12 ********************************/
+
+@media (min-width: 1600px) {
+  .gundetails .pixel_heading {
+  }
+}
+
+.gundetails .pixel_heading {
+  padding-top: 16px;
+  margin-top: -20px;
+  gap: 30px;
+}
+
+#gun_col2 {
+  padding-left: 22px;
+  text-align: left;
+}
+.gundetails .row {
+  margin-top: -5px;
+  margin-left: 10px;
+}
+
+@media (min-width: 1200px) and (max-width: 1680px) {
+  #gun_para1 {
+    text-align: left;
+    padding-right: 285px;
+    padding-left: 29px;
+  }
+  #gun_para2 {
+    text-align: left;
+    padding-left: 80px;
+    margin-bottom: 0px;
+  }
+  .gundetails {
+    background-color: #222629;
+    padding-top: 134px;
+  }
+  .gundetails .row {
+    margin-top: -15px;
+  }
+  #gun_img {
+    margin-top: -11px;
+    margin-left: -15px;
+  }
+  #gd_h5 {
+    margin-top: -177px;
+    margin-left: 0px;
+  }
+  #gun_col1 {
+    padding-left: 0px;
+    margin-left: -25px;
+  }
+  #gun_col2 {
+    padding-left: 38px;
+    margin-top: -3px;
+  }
+  #gd2_h5 {
+    margin-top: 26px;
+    margin-left: 5px;
+  }
+  #gun_p {
+    margin-top: 47px;
+    margin-left: 2px;
+  }
+  #gun_p1 {
+    margin-top: 21px;
+    margin-bottom: 50px;
+    margin-left: 2px;
+  }
+  #g_pixel_btn {
+    margin-top: -3px;
+  }
+  #gd_h5::before {
+    margin-left: -20px;
+  }
+}
+
+@media (min-width: 1700px) and (max-width: 1980px) {
+  #gun_col2 {
+    padding-left: 42px;
+    margin-top: -5px;
+  }
+  #gd2_h5 {
+    margin-top: 27px;
+    padding-left: 41.6px;
+  }
+
+  element.style {
+    animation-fill-mode: both;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-name: react-reveal-424146684129385-10;
+  }
+  #gd_h5 {
+    margin-top: -176px;
+    margin-left: 5px;
+  }
+  #gun_para1 {
+    padding-left: 49px;
+    margin-bottom: 37px;
+  }
+  #gun_p {
+    margin-top: 47px;
+  }
+  #gun_img {
+    margin-top: -16px;
+  }
+  #gun_p1 {
+    margin-bottom: 72px;
+  }
+}
+
+@media (max-width: 768px) {
+  #g_pixel_btn {
+    margin-right: 0px;
+    margin-left: 48px;
+  }
+  #event_row1 {
+    margin-left: 0px;
+  }
+  #event_row3 {
+    margin-left: 0px;
+  }
+}
+
+#g_pixel_btn {
+  padding: 12.73px 40px 9.79px 42px;
+}
+@media (max-width: 1100px) {
+  .res_img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 180px;
+  }
+  #gun_para1 {
+    padding-right: 0px;
+  }
+  #gun_para2 {
+    padding-right: 0px;
+  }
+  #gun_col2 {
+    margin-top: 67px;
+  }
+  #gun_p {
+    padding-right: 0px;
+  }
+  #gun_p1 {
+    padding-right: 0px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1100px) {
+  #g_pixel_btn {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+@media (min-width: 600px) and (max-width: 999px) {
+  #g_pixel_btn {
+    margin-right: 0px;
+    margin-left: 204px;
+  }
+}

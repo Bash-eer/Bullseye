@@ -1,0 +1,322 @@
+/*************************** section top ********************************************/
+.section_5 {
+  background-color: #1b1f22;
+  padding-top: 140px;
+  padding-bottom: 164px;
+}
+.section_5 section {
+  border-color: #1b1f22;
+}
+.section_5 .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section_5 .container {
+  padding-left: 15px;
+}
+
+/*****************************right side image *****************************************/
+.section_5 .row .img-fluid {
+  width: 400px;
+  height: auto;
+}
+
+/*******************************assets image ******************************************/
+.experience_asset {
+  width: 17px;
+  height: 130.592px;
+}
+.section_5_asset1 {
+  width: 100%;
+  height: 100%;
+}
+/************ section5 para **************/
+#exp_p {
+  margin-top: 25.88px;
+  padding-right: 42px;
+  margin-left: -5px;
+}
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+.experience_h3 {
+  width: 647px;
+  text-align: left;
+}
+.section_5 .skills-content {
+  padding-top: 35.84px;
+}
+.skills-content .skills .content h3 {
+  width: 100%;
+  font-family: Oswald;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 119.2%;
+  text-align: left;
+}
+
+.skills .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills .content ul li {
+  padding-bottom: 10px;
+}
+
+.skills .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #47b2e4;
+}
+
+.skills .content p:last-child {
+  margin-bottom: 0;
+  padding-top: 31.19px;
+}
+
+.skills .progress {
+  padding-top: 3px;
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+  padding-right: 1px;
+}
+
+/*************** skills progress skill ***************/
+
+.skills .progress .skill {
+  text-align: left;
+  padding: 0;
+  margin: 0px 0px 0px 0px;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  /* H5 */
+  font-family: Oswald;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+  width: 30px;
+}
+
+/**************************** .skills .prgress-bar-wrap **************************/
+
+.skills .progress-bar-wrap {
+  background: transparent;
+  border: 1px solid;
+  border-radius: 1px;
+  height: 19.911px;
+}
+
+.skills .progress-bar {
+  transition: 0.9s;
+  background-color: #86c232;
+  border-radius: 1px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+/**************** bar fills *************************/
+.bar1 {
+  width: 88%;
+  transition: width 2s;
+  transition-property: width;
+}
+
+.bar2 {
+  width: 98%;
+  transition: width 2s;
+  transition-property: width;
+}
+
+.bar3 {
+  width: 63%;
+  transition: width 2s;
+  transition-property: width;
+}
+
+.bar4 {
+  width: 80%;
+  transition: width 2s;
+  transition-property: width;
+}
+
+.progress-bar-wrap {
+  height: 10px;
+  width: 100%;
+  background-color: #cdcdcd;
+  border-radius: 50px;
+  position: relative;
+}
+.progress-bar {
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: left;
+  transform-origin: left;
+  -webkit-animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  height: 100%;
+  border-radius: 50px;
+  position: absolute;
+  background-color: #fd6e0a;
+  transition: 1s all;
+}
+.progress-bar .animate {
+  -webkit-animation: animate 1.5s 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
+  animation: animate 1.5s 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@-webkit-keyframes showText {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes showText {
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animate {
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+@keyframes animate {
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+/********** for background overlay in column 2 *******/
+.custom-modal-video .modal-video-movie-wrap {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*********************experience_overlay  *************************/
+.experience_overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  z-index: 1111;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.section5_col2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/************************ hover method **********************************/
+.play_img:hover {
+  cursor: pointer;
+}
+
+.section_5 .pixel_heading {
+  margin-top: -9px;
+  margin-left: -5px;
+  gap: 30px;
+}
+#play_btn {
+  margin-top: -10px;
+  margin-right: 0px;
+}
+
+@media (min-width: 1200px) and (max-width: 1680px) {
+  .section_5 {
+    padding-top: 152px;
+  }
+  progress,
+  .progress-stacked {
+    margin-left: 6px;
+  }
+  .section_5 .row {
+    margin-top: 10px;
+  }
+  #exp_col1 {
+    padding-left: 0px;
+    margin-left: -21px;
+    margin-top: 9px;
+  }
+  #exp_p {
+    padding-right: 59px;
+    margin-top: 50.88px;
+    margin-bottom: 39px;
+    margin-left: -5px;
+  }
+  #play_btn {
+    margin-left: 0px;
+    margin-top: -31px;
+    margin-right: -8px;
+  }
+  .skills .progress {
+    margin-left: -3px;
+    padding-right: 140px;
+  }
+}
+
+@media (min-width: 1700px) and (max-width: 1980px) {
+  .section_5 .row {
+    margin-top: 20px;
+  }
+  #exp_p {
+    margin-top: 45.88px;
+    margin-right: 23px;
+    margin-bottom: 48px;
+  }
+  .skills .progress .skill {
+    margin: 0px 0 6px 0;
+  }
+  #play_btn {
+    margin-top: -40px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  #play_btn {
+    margin-right: 0px;
+  }
+  .section5_col2 {
+    display: flex;
+    justify-content: center;
+  }
+  #play_btn {
+    margin-right: 0px;
+  }
+}
+
+@media (min-width: 680px) and (max-width: 1100px) {
+  .section5_col2 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 680px) {
+  .section5_col2 {
+    padding-right: 0px;
+  }
+}
+@media (max-width: 350px) {
+  .section_5 .pixel_heading {
+    font-size: 25px;
+  }
+}

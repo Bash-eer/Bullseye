@@ -1,0 +1,130 @@
+.section11 {
+  background-color: #222629;
+}
+.section11 .row {
+  padding-top: 0px;
+}
+.section11 .home_para {
+  margin-top: 74px;
+  margin-bottom: 64px;
+  margin-left: 10px;
+}
+
+#pointer_image {
+  z-index: 10;
+  margin-left: -113px;
+  margin-top: -45px;
+}
+
+/************* column 2 ****************/
+
+.section11_asset {
+  width: 17px;
+  height: 181px;
+}
+.section11 .row .right_head img {
+  padding-top: 71px;
+}
+
+.section11 .right_head {
+  margin-top: 0px;
+}
+.section11 .pixel_heading {
+  padding-top: 91px;
+  gap: 32px;
+}
+.section11 .pixel_heading::before {
+  padding-top: 17px !important;
+}
+/*********** alteration *****************/
+.skills .content p:last-child {
+  margin-bottom: 0;
+  padding-top: 0px;
+}
+
+.big_btn1 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  /* Button text */
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: var(--Secondary, #86c232);
+}
+@media (min-width: 1200px) and (max-width: 1680px) {
+  .section11 .home_para {
+    margin-top: 64px;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .section11 .pixel_view {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #pointer_image {
+    max-width: 100%;
+  }
+  .section11 .pixel_heading {
+    padding-left: 0px;
+    padding-right: 0px;
+    gap: 6px;
+  }
+  #facility_btn {
+    margin-bottom: 50px;
+  }
+  #pointer_image {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-top: 20px;
+  }
+}
+
+#facility_col2 {
+  text-align: left;
+}
+
+#facility_btn {
+  margin-top: -7px;
+  padding: 12px 27px 11px 28px;
+}
+
+@media (min-width: 351px) and (max-width: 480px) {
+  .right_img_border {
+    left: 182px;
+    margin-right: 0px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  #pointer_image {
+    max-width: 100%;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 1000px) {
+  #pointer_image {
+    z-index: 10;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .section_map .row .info iframe {
+    border: 0;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  #pointer_image {
+    margin-top: 100px;
+  }
+  #facility_btn {
+    margin-bottom: 100px;
+    margin-left: 26%;
+  }
+  .info {
+    margin-top: 100px;
+  }
+}
