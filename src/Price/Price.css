@@ -266,4 +266,7 @@
   .right_img_border {
     left: 120px;
   }
+  #best {
+    font-size: 25px;
+  }
 }

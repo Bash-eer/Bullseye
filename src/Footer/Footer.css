@@ -217,6 +217,7 @@
   display: flex;
 }
 .footer-bottom .credits a {
+  text-decoration: none;
 }
 .credits a span {
   color: #86c232;

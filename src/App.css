@@ -112,7 +112,7 @@ li a {
 --------------------------------------------------------------*/
 @media (min-width: 351px) and (max-width: 400px) {
   .right_img_border {
-    left: 183px;
+    left: 170px;
   }
 }
 @media (max-width: 500px) {

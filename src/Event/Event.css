@@ -301,3 +301,9 @@
     padding-left: 88px;
   }
 }
+
+@media (max-width: 350px) {
+  .section7_head {
+    font-size: 25px;
+  }
+}

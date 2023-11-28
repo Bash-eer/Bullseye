@@ -120,3 +120,9 @@ element.style {
     padding: 0px;
   }
 }
+
+@media (max-width: 350px) {
+  .rect_cont_2 {
+    max-width: 30%;
+  }
+}

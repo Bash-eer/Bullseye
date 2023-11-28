@@ -167,4 +167,10 @@
   .portfolio_info_col_h4 {
     width: 76px;
   }
+  #blog_h3 {
+    font-size: 25px;
+  }
+  .portfolio_info_row2_h4 {
+    font-size: 25px;
+  }
 }

@@ -420,7 +420,7 @@
     padding-left: 0px;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 360px) {
   .image2_border {
     left: 300px;
   }

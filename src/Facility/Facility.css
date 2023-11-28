@@ -128,3 +128,8 @@
     margin-top: 100px;
   }
 }
+@media (max-width: 350px) {
+  .section11 .pixel_heading {
+    font-size: 25px;
+  }
+}

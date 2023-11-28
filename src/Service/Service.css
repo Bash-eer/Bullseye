@@ -430,3 +430,8 @@
     padding-left: 0px;
   }
 }
+@media (max-width: 350px) {
+  #ser_h3 {
+    font-size: 25px;
+  }
+}

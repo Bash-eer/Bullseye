@@ -260,3 +260,8 @@
     max-width: 100%;
   }
 }
+@media (max-width: 350px) {
+  #client_head1 {
+    font-size: 25px;
+  }
+}
